@@ -13,10 +13,10 @@ load_dotenv()
 BOT_TOKEN = os.getenv("8612210288:AAH2wVYMh5M8TGI5zpn4FcQ5HQJ-NLOQ29A")
 
 if not BOT_TOKEN:
-    raise ValueError("Не найден токен бота! Проверьте переменную окружения BOT_TOKEN.")
+    raise ValueError("8612210288:AAH2wVYMh5M8TGI5zpn4FcQ5HQJ-NLOQ29A")
 
 # Инициализируем бота и диспетчер
-bot = Bot(token=BOT_TOKEN)
+bot = Bot(token="8612210288:AAH2wVYMh5M8TGI5zpn4FcQ5HQJ-NLOQ29A")
 dp = Dispatcher()
 
 # Создаем клавиатуру с кнопками (Reply-клавиатура)
