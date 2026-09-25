@@ -10,7 +10,7 @@ from dotenv import load--dotenv  # Если используешь .env файл
 load_dotenv()
 
 # Получаем токен из переменных окружения
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8612210288:AAH2wVYMh5M8TGI5zpn4FcQ5HQJ-NLOQ29A")
 
 if not BOT_TOKEN:
     raise ValueError("Не найден токен бота! Проверьте переменную окружения BOT_TOKEN.")
